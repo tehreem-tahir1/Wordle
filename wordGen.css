@@ -1,0 +1,43 @@
+* {
+
+	text-align: center;
+	font-family:  "Moon", Arial, sans serif;
+	font-weight: normal;
+
+}
+
+@font-face {
+
+	font-family: "Moon";
+	src: url("../fonts/Moon-Regular.woff2") format("woff2"),
+		 url("../fonts/Moon-Regular.woff") format("woff");
+	font-weight: normal;
+
+}
+
+@font-face {
+
+	font-family: "Moon";
+	src: url("../fonts/Moon-Bold.woff2") format("woff2"),
+		 url("../fonts/Moon-Bold.woff") format("woff");
+	font-weight: bold;
+
+}
+.word-list{
+	display:inline-table table-column;
+    background-color: darkseagreen;
+	border: 2px solid black;
+    padding: 10px; 
+	margin: 40px;
+	border: 2px black solid;
+
+}
+  video {
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    z-index:-1; 
+  }    

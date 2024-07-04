@@ -1,0 +1,40 @@
+{
+    "Maths": [["assymptode" , "differential", "algorithm"],
+			["euclidean", "integral", "logarithm"],
+			["integral", "polyhedron", "theta"],
+			["binomial", "pythagoras", "algebra"],
+			["derivative",  "coordinates",  "tangent"]],
+
+		"Breakfast": [["Rice", "Milk", "Bread"],
+			["Sandwich", "Cheese", "Rusk"], 
+			["Jam", "Youghurt", "Juice"],
+			["Glutons", "Shake", "Fruits", "Pancake"],
+			["Pie", "Honey", "Croissonts", "Waffles"]],
+
+		"Philosophy!": [["metaphysics", "modus ponens", "modus tollens", "analogy"],
+			["a priori", "a posteriori", "conditional", "nietzsche"],
+			["diogenes", "paradox", "occam's razor", "causality"],
+			["induction", "deduction", "ontology", "theology"],
+			["syllogism", "ethics", "karl marx", "pluralism"]],
+
+		"Colours": [["Purple", "Pink", "Green", "Red"],
+			["Orange", "White", "Blue", "Brown"],
+			["Indigo", "Yellow", "Aqua", "Black"],
+			["Violet", "Peach", "Lime", "Beige"],
+			["Grey", "Golden", "Silver", "Light Blue"]],
+
+		" The different spots at FAST": [["Library", " Auditorium ", " Highway"],
+		    [" Labs ", " Civil ", " Parking "],
+			[" Old Cafe", " New Cafe", "Drawing Hall"],
+			[" Classroom ", "E and M"," Basement "],
+			[" FYP Lab ", " Offices ", " Student Centre "]],
+
+		"Coding Terminology": [["Array","Debug", "Errors"],
+			["Recursion", "Classes", "Objects"],
+			["Functions", "Loops", "Parameters"],
+			["Variables", "Void", "Heap"],
+			["Binary Trees", "Stack", "Queue"]]
+
+
+}
+  

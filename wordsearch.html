@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+	<head>	
+		<meta charset="utf-8">
+		<title>Word Search </title>
+	</head>
+	<body>
+		<h5>Word Search </h5>
+		<h2 id = "instructions"></h2>
+		<video autoplay muted loop playsinline>
+			<source src="back.mp4" type="video/mp4">
+		  </video>
+		<h1 id = "wordTheme"></h1>
+		<div id="app" style="margin-left: 70%;"></div>
+		<button id = "newGameButton" type = "button" style="margin-top: -20%;">Switch Puzzle</button>
+		<div id = "wordboard" style="margin-top: -10%"></div>
+		<div id = "wordlist"></div>
+		<button id = "solveButton" type = "button" style="margin-top: 20px;"> I quit</button>
+		<link rel = "stylesheet" type="text/css" href = "wordsearch.css">
+		<link rel="stylesheet" type="text/css" href="timer.css">
+		<script src = https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js></script>
+		
+		<script src = "wordpaths.js"></script>
+		<script src = "wordsearchcontroller.js"></script>
+		<script src = "wordsearchlogic.js"></script>
+		<script src = "wordsearchview.js"></script>
+		<script src="timer.js"></script>
+
+		<script>	
+			$(document).ready( function() 
+			{
+				new WordSearchController("#wordboard", "#wordlist", "#solveButton", "#newGameButton", "#instructions", 
+					"#wordTheme");
+					const puzzleTimeout = 20; // 5 seconds
+            setTimeout(function () {
+                wordSearchController.solvePuzzle();
+            }, puzzleTimeout);
+			})
+			
+		</script>
+	</body>
+</html>

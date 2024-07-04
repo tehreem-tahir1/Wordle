@@ -1,0 +1,241 @@
+* {
+
+	text-align: center;
+	font-family:  "Moon", Arial, sans serif;
+	font-weight: normal;
+
+}
+
+h1, h2, #wordTheme, #solveButton, #newGameButton, .listWord {
+
+	padding: 5px;
+
+}
+
+ #solveButton, #newGameButton {
+
+	border: 2px black solid;
+	border-radius: 8px;
+
+} 
+
+.cell {
+
+	background-color: rgb(227, 165, 213);
+	position: relative;
+	top: 100%;
+
+}
+#wordTheme{
+
+	background-color: rgba(247, 109, 224, 0.785);
+	position: absolute;
+	margin-top: -12%;
+	margin-left: 4%;
+	width: 40%;
+
+}
+#wordlist{
+	background-color: darkseagreen;
+	border: 2px solid black;
+    padding: 10px; 
+	margin: 40px;
+	border: 2px black solid;
+	display:inline-table table-column;
+	-ms-text-kashida-space: 30%;
+	width: 160px;
+	height: 570px;
+	font-size: 22px;
+	text-align:center;
+	-moz-text-align-last: center;
+	margin-right: 1300px;
+	margin-top:-880px;
+	opacity: 0.9;
+}
+h5{
+
+	margin-right: 10%;
+		background-color:transparent;
+	font-size: 40px;
+	font-weight: bolder;
+	margin-top: 10px;
+
+}
+
+h2 
+{
+    background-color: rgb(172, 162, 162);
+	opacity: 0.9;
+	margin-right: 10%;
+	display: flex;
+	border-radius: 30px;
+	font-size: 20px;
+	margin-top:-3%;
+
+}
+h1{
+	margin-left: -600px;
+	background-color:transparent;
+}
+
+body {
+
+	background-color: white;
+
+}
+
+#wordTheme {
+
+	border-radius: 40px;
+
+}
+
+#wordboard {
+    margin-right: 10%;
+	border: 2px black solid;
+	display: table;
+	min-width: 600px;
+	text-align: justify;
+margin-bottom: 10%;
+margin-top: -10%;
+
+
+}
+
+.boardRow {
+
+	display: table-row;
+	text-align: center;
+
+}
+
+.cell {
+
+	margin: 0 auto;
+	border: none;
+	display: table-cell;
+	height:30px;
+	width: 30px;
+	font-size: 20px;
+	padding: 0;
+	outline: 0;
+	font-weight: normal;
+	/*ensures text can't be accidentally selected*/
+	cursor: default; 
+	-moz-user-select: none;
+    -ms-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -webkit-touch-callout: none; 
+
+}
+
+.cell:hover {
+
+	background-color: rgb(197, 68, 199);
+
+}
+
+.cell.selectable {
+
+	background-color: rgb(206, 234, 231);
+
+}
+
+.cell.selected { 
+
+	background-color: rgb(161, 80, 118);
+
+}
+
+.cell.found {
+
+	background-color: rgb(189, 102, 189);
+	border: 1px black solid;
+	font-weight: bold;
+
+}
+
+
+.listRow {
+
+	display: table-row;
+
+}
+
+.listWord {
+
+	display:table-row;
+	
+}
+
+.listWord.found {
+
+	color: rgb(102, 56, 102);
+	text-decoration: line-through;
+	
+}
+
+#newGameButton {
+
+	background-color: rgb(0, 0, 0);
+	color: whitesmoke;
+	width: 200px;
+	display: block;
+	outline: 0;
+	border-radius: 20px;
+	font-size: 20px;
+	font-weight: normal;
+	margin-top: -15%;
+	margin-right: 1%;
+	padding-top: 10px;
+	position: absolute;
+	margin-bottom: 6%;
+
+}
+#solveButton{
+	background-color: rgb(0, 0, 0);
+	color: whitesmoke;
+	width: 200px;
+	display: block;
+	outline: 0;
+	border-radius: 20px;
+	font-size: 20px;
+	font-weight: normal;
+	position: absolute;
+	margin-bottom: 500px;
+	right: 50px;
+}
+
+@font-face {
+
+	font-family: "Moon";
+	src: url("../fonts/Moon-Regular.woff2") format("woff2"),
+		 url("../fonts/Moon-Regular.woff") format("woff");
+	font-weight: normal;
+
+}
+
+@font-face {
+
+	font-family: "Moon";
+	src: url("../fonts/Moon-Bold.woff2") format("woff2"),
+		 url("../fonts/Moon-Bold.woff") format("woff");
+	font-weight: bold;
+
+}
+
+video {
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -100;
+  }
+  .Wordle{
+	width: 100%; height: 100%; position: relative; background: #B67F9E;
+
+  }
