@@ -15,51 +15,16 @@ This project is a web-based Word Search Puzzle created using HTML, CSS, and Vani
 - **Puzzle Solver**: Solve the generated puzzle with an interactive interface.
 - **Timer**: A countdown timer to add a competitive element.
 - **Backgrounds**: Soothing backgrounds to enhance the user experience.
-
-## Getting Started
+-**Quit Functionality**: Automatically solves the puzzle for the user if they choose to quit.
+- **Theme Switcher**: Explore different themes for the puzzles using the switch theme option.
 
 ### Prerequisites
 
 To run this project, you need a web browser that supports HTML5, CSS3, and JavaScript (Vanilla JS).
 
-### Installation
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/word-search-puzzle.git
-   ```
-2. Navigate to the project directory:
-   ```sh
-   cd word-search-puzzle
-   ```
-
-## Project Structure
-
-```
-word-search-puzzle/
-│
-├── index.html         # Main HTML file
-├── style.css          # CSS file for styling
-├── script.js          # Main JavaScript file
-├── README.md          # Project README file
-└── assets/            # Directory for images, if any
-```
-
-### index.html
-
-This is the main HTML file that contains the structure of the web page. It includes the puzzle generator and solver sections.
-
-### style.css
-
-This CSS file is responsible for the styling of the application, including the layout, colors, and backgrounds.
-
-### script.js
-
-This JavaScript file contains the logic for generating the puzzle, handling user interactions, and managing the timer.
-
 ## Usage
 
-1. **Open the Application**: Open `index.html` in your web browser.
+1. **Open the Application**: Open `sre.html` in your web browser.
 2. **Generate Puzzle**: Enter the list of words and click the "Generate Puzzle" button to create a new puzzle.
 3. **Solve Puzzle**: Use your mouse to highlight the words in the puzzle grid. The timer will start counting down once you begin solving.
 
@@ -69,7 +34,7 @@ You can customize various aspects of the puzzle, such as the word list, backgrou
 
 ### Adding New Words
 
-To add new words, modify the `wordList` array in `script.js`:
+To add new words, modify the `wordList` array in `wordsearchview.js`:
 
 ```javascript
 const wordList = ['example', 'word', 'list'];
@@ -77,11 +42,11 @@ const wordList = ['example', 'word', 'list'];
 
 ### Changing Backgrounds
 
-To change the background, update the CSS rules in `style.css`:
+To change the background, update the CSS rules in `styles.css`:
 
 ```css
 body {
-    background-image: url('assets/background.jpg');
+    background-image: url('back.mp4);
     background-size: cover;
 }
 ```
@@ -104,7 +69,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ## Contact
 
-If you have any questions or feedback, feel free to reach out to the project maintainer at your-email@example.com.
+If you have any questions or feedback, feel free to reach out to the project maintainer at tehreem.4861@gmail.com
 
 ---
 
